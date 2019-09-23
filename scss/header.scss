@@ -1,0 +1,49 @@
+.header {
+	padding: 20px 0 16px;
+}
+
+.header-wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__logo {
+	display: block;
+}
+
+.header-links {
+	display: flex;
+	align-items:  center;
+}
+
+.header-links__link {
+	display: block;
+	position: relative;
+	font-weight: 500;
+	color: #2d2d2d;
+	text-decoration: none;
+}
+
+.header-links__link_email {
+	margin-right: 93px;
+}
+
+.header-links__link_email::before {
+	position: absolute;
+	content: "";
+	width: 31px;
+	height: 31px;
+	left: -44px;
+	top: -5px;
+	background: url(../img/038-email-2.svg) no-repeat;
+}
+
+.header-links__link_phone::before {
+	position: absolute;
+	content: "";
+	width: 26px;
+	height: 26px;
+	left: -38px;
+	top: -3px;
+	background: url(../img/044-call-1.svg) no-repeat;
+}

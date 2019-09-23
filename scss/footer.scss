@@ -1,0 +1,34 @@
+.footer {
+	padding: 25px 0 20px;
+	font-weight: 400;
+	background-color: #000;
+	color: #eeeeee;
+	font-size: 12px;
+}
+
+.footer-wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-images {
+	min-width: 207px;
+}
+
+.footer-images__first {
+	margin-right: 34px;
+}
+
+.footer__middle-text,
+.footer__link_1 {
+	transform: translateX(20px);
+}
+
+.footer__span {
+	font-weight: 300;
+}
+
+.footer__link {
+	display: block;
+	color: #eeeeee;
+}
